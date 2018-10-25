@@ -1,0 +1,97 @@
+body{
+	background-size:100%;
+	background-attachment: fixed;
+	background:#666;
+}
+#general {
+	width:1000px;
+	height:auto;
+	background:#03F;
+	margin-left:auto;
+	margin-right:auto;
+}
+#Cabecera {
+	width:1000px;
+	height:230px;
+	background:#FFF;
+}
+#banner {
+	width:1000px;
+	height:270px;
+	background:#00F;
+	float:left;
+}
+#logo2 {
+	width:200px;
+	height:120px;
+	background:#C06;
+	float:left;
+	
+}
+#contactanos {
+	width:50%;
+	height:50%;
+	background:#CCC;
+	float:right;
+	
+}
+#contacto {
+	width:790px;
+	float:right;
+	height:120px;
+	background:#903;
+}
+#numero {
+	width:40%;
+	height:30%;
+	margin-top:10px;
+	background:#639;
+	float:right;
+	margin-left:150px;
+}
+.menu {
+	width:230px;
+	height:70px;
+	background:#033;
+	float:left;
+	margin:10px;
+	margin-top:40px;
+}
+
+#imagen4 {
+	width: 186px;
+	height: 130px;
+	background-color:#FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+#referencia {
+    width:1000px;
+	height:auto;
+    background-color:#666; 
+    margin-left: auto;
+	margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+
+
+}
+#mapa{
+    width:1000px;
+	height:auto;
+    background-color:salmon; 
+    margin-left: auto;
+	margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+}
+#ubicacion{
+    width:1000px;
+	height:auto;
+    background-color:salmon; 
+    margin-left: auto;
+	margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+
+}
