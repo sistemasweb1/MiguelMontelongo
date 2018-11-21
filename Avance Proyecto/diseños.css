@@ -1,39 +1,72 @@
 body{
 	background-size:100%;
 	background-attachment: fixed;
-	background:#666;
-	height: auto;
-	background-color:goldenrod; 
+	/*background:#CCFFFF;*/
+	background:#8EA5BD;
+
 }
 #general {
 	width:1000px;
 	height:auto;
-	background:#03F;
+	background:white;
 	margin-left:auto;
 	margin-right:auto;
+	text-decoration:none; 
+
+
 }
 #Cabecera {
 	width:1000px;
 	height:230px;
-	background:#FFF;
+	background:white;
+}
+#contenido {
+	margin-top:8px;
+	width:1000px;
+	height:auto;
+	background:white;
+}
+.textos {
+	width:333px;
+	height:400px;
+	background:black;
+	float:left;
+}
+.cuadradas {
+	width:333px;
+	height:333px;
+	background:black;
+	float:left;
+}
+.imagenes {
+	width:333px;
+	height:240px;
+	background:black;
+	float:left;
+}
+#logo1 {
+	width:0px;
+	height:150px;
+	background:white;
+	float:left;
 }
 #banner {
 	width:1000px;
 	height:270px;
-	background:#00F;
+	background:white;
 	float:left;
 }
 #logo2 {
 	width:200px;
 	height:120px;
-	background:#C06;
+	background:#CCC;
 	float:left;
 	
 }
 #contactanos {
 	width:50%;
 	height:50%;
-	background:#CCC;
+	background:white;
 	float:right;
 	
 }
@@ -41,47 +74,39 @@ body{
 	width:790px;
 	float:right;
 	height:120px;
-	background:#903;
+	background:white;
+	
 }
 #numero {
 	width:40%;
 	height:30%;
 	margin-top:10px;
-	background:#639;
+	background:white;
 	float:right;
 	margin-left:150px;
+
 }
 .menu {
 	width:230px;
-	height:70px;
-	background:#033;
+	height:50px;
+	background:#B6CDE5;
 	float:left;
-	margin:10px;
-	margin-top:40px;
+	margin:8px;
+	margin-top:38px;
+	border-radius: 110px 110px 110px 110px;
+	font-family: "Latin Modern Roman 10";
+    font-style: italic;
+    font-size: 30px;
+	text-align: center;
+	
 }
-#referencia {
-    width:1000px;
+#titulos{
 	height:auto;
-    background-color:#666; 
-    margin-left: auto;
-	margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:1.5em;
-}
-.diseños{
-	width:230px;
-	height:400px;
-	background:#033;
-	float:left;
-	margin:10px;
-	margin-top:40px;
-}
-#pie{
-    width:1000px;
-	height:auto;
-    background-color:salmon; 
-    margin-left: auto;
-	margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:1em;
-}
+	width:auto;
+	font-family: "Latin Modern Roman 10";
+    font-style: italic;
+    font-size: 19px;
+	text-align: center;
+	color:#03F;
+	}
+

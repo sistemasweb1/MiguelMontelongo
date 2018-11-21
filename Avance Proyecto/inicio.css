@@ -1,56 +1,61 @@
 body{
 	background-size:100%;
 	background-attachment: fixed;
-	background:#666;
+	/*background:#CCFFFF;*/
+	background:#8EA5BD;
+
 }
 #general {
 	width:1000px;
-	height:2250px;
-	background:#03F;
+	height:auto;
+	background:white;
 	margin-left:auto;
 	margin-right:auto;
+	text-decoration:none; 
+
+
 }
 #Cabecera {
 	width:1000px;
 	height:230px;
-	background:#FFF;
+	background:white;
 }
 #contenido {
 	margin-top:8px;
 	width:1000px;
-	height:500px;
-	background:#000;
+	height:400px;
+	background:white;
 }
 .textos {
-	width:312px;
-	height:200px;
-	margin:8px;
-	background:#FC6;
+	width:200px;
+	height:322px;
+	margin:24px;
+	background:white;
 	float:left;
 }
 #logo1 {
 	width:0px;
 	height:150px;
-	background:#F00;
+	background:white;
 	float:left;
 }
 #banner {
 	width:1000px;
 	height:270px;
-	background:#FFF;
+	background:white;
 	float:left;
 }
 #logo2 {
 	width:200px;
 	height:120px;
-	background:#C06;
+	background:#CCC;
 	float:left;
 	
 }
 #contactanos {
 	width:50%;
 	height:50%;
-	background:#CCC;
+	background:white;
 	float:right;
 	
 }
@@ -59,6 +64,7 @@ body{
 	float:right;
 	height:120px;
 	background:white;
+	
 }
 #numero {
 	width:40%;
@@ -71,29 +77,35 @@ body{
 }
 .menu {
 	width:230px;
-	height:70px;
-	background:#641c34;
+	height:50px;
+	background:#B6CDE5;
 	float:left;
-	margin:10px;
-	margin-top:40px;
+	margin:8px;
+	margin-top:38px;
 	border-radius: 110px 110px 110px 110px;
+	font-family: "Latin Modern Roman 10";
+    font-style: italic;
+    font-size: 30px;
+	text-align: center;
+	color:#000;
+	
 }
 #galeria {
 	width:1000px;
 	height:750px;
-	background:#C69;
+	background:white;
 }
 #contenido2 {
 	width: 1000px;
 	height: 400px;
-	background-color:#CF0;
+	background-color:white;
 }
 #texto1 {
 	width: 400px;
 	height: 380px;
 	margin-left: 10px;
 	margin-right: 20px;
-	background-color:#60F;
+	background-color:white;
 	float: left;
 }
 
@@ -101,13 +113,13 @@ body{
 	width: 560px;
 	height: 380px;
 	margin-right: 10px;
-	background-color:#60F;
+	background-color:white;
 	float: left;
 }
 #contenido3 {
 	width: 1000px;
 	height: 300px;
-	background-color:#F36;
+	background-color:white;
 	margin-top: 20px;
 }
 
@@ -116,7 +128,7 @@ body{
 	height: 280px;
 	margin-left: 10px;
 	margin-right: 20px;
-	background-color:#60F;
+	background-color:white;
 	float: left;
 	
 	
@@ -125,28 +137,31 @@ body{
 	width: 560px;
 	height: 280px;
 	margin-right: 10px;
-	background-color:#CF0;
+	background-color:white;
 	float: left;
 }
 
 #contenedor4 {
 	width: 560px;
-	height: 130px;
-	background-color:#F9F;
+	height: 280px;
+	background-color:red;
 	float: left;
-	margin-bottom: 10px;
+	
 }
 #imagen4 {
 	width: 186px;
 	height: 130px;
-	background-color:#FFF;
+	background-color:white;
 	margin-left: auto;
 	margin-right: auto;
 }
-#texto2 {
-	width: 560px;
-	height: 130px;
-	background-color:#663;
-	float: left;
-	margin-top: 10px;
-}
+#titulos{
+	height:auto;
+	width:auto;
+	font-family: "Latin Modern Roman 10";
+    font-style: italic;
+    font-size: 19px;
+	text-align: center;
+	color:#03F;
+	}
+
