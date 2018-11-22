@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+    font-family: arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #ddd;}
+#customers tr:hover {background-color: aqua;}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Alumno</th>
+    <th>Matricula</th>
+    <th>Calificación </th>
+  </tr>
+  <tr>
+    <td>Miguel Montelongo Reyes </td>
+    <td>150383 </td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Pedro Balderas Najera </td>
+    <td>150283 </td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Federico Diaz </td>
+    <td>150077</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Fernando Herrera Sigala </td>
+    <td>150314</td>
+    <td>10</td>
+  </tr>
+
+
+ 
+
+
+</table>
+
+</body>
+</html>

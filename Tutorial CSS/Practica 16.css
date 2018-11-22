@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<head>
+
+    <style>
+        .label_test{
+            color:white;
+        }
+ 
+        #imagen{
+            position: absolute;
+            top:150px;
+            right: 150px;
+            width:450px;
+        }
+        #forma{
+            position:absolute;
+            left:400px;
+        }
+        #subtitulo{
+            color:white;
+        }
+        .boton{
+            color:green;
+        }
+    </style>
+
+</head>
+<body bgcolor=black>
+
+    <h1 style="color:white"><p align=center>REGISTRATE</align></h1>
+    <p align=center id="subtitulo"><strong>Registrate en nuestra pagina</strong></p>
+    <div id="pruba">
+        <div id="forma">
+            <form>
+                <label for="nombre" class="label_test">Nombre:</label><br>
+                <input type="text" id="nombre"><br>
+                <label for="apellido" class="label_test">Apellido:</label><br>
+                <input type="text" id="apellido"><br>
+                <label for="edad" class="label_test">Edad:</label><br>
+                <input type="number" id="edad"><br>
+                <label for="correo" class="label_test">Correo:</label><br>
+                <input type="email" id="correo"><br>
+                <label for="usuario" class="label_test">Usuario:</label><br>
+                <input type="text" id="usuario"><br>
+                <label for="contrasena" class="label_test">Contraseña:</label><br>
+                <input type="password" id="contasena"><br>
+                <label for="confirmar contrasena" class="label_test">Confirmar contraseña:</label><br>
+                <input type="password" id="confirmarcontrasena"><br>
+                <br>
+                <input style="background-color:rgb(29, 170, 1);color:white;border:rgb(29, 170, 1) 2px solid;" type="Submit" value="Registrarse">
+                <input type="reset">
+            </form>
+        </div>
+
+        
+        
+    </div>
+   
+    
+</body>
+</html>
