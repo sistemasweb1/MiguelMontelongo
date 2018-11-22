@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><h2>Mi primera pagína a consola </h2></center>
+
+<center><p>
+Con F12 activar la consola para ver el resultado de una operacion en especifica 
+</p></center>
+
+<script>
+a = 10;
+b = 6;
+c = a + b;
+console.log(c);
+</script>
+
+</body>
+</html> 
